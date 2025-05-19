@@ -2,10 +2,10 @@ include(CMakeDependentOption)
 # The following options can be overriden by custom builds using the CustomOverrides.cmake file
 
 # App
-set(QGC_APP_NAME "QGroundControl" CACHE STRING "App Name")
+set(QGC_APP_NAME "AirHiveGroundControl" CACHE STRING "App Name")
 set(QGC_APP_COPYRIGHT "Copyright (c) 2024 QGroundControl. All rights reserved." CACHE STRING "Copyright")
 set(QGC_APP_DESCRIPTION "Open Source Ground Control App" CACHE STRING "Description")
-set(QGC_ORG_NAME "QGroundControl.org" CACHE STRING "Org Name")
+set(QGC_ORG_NAME "Air Hive" CACHE STRING "Org Name")
 set(QGC_ORG_DOMAIN "org.qgroundcontrol" CACHE STRING "Domain")
 set(QGC_SETTINGS_VERSION "9" CACHE STRING "Settings Version") # If you need to make an incompatible changes to stored settings, bump this version number up by 1. This will caused store settings to be cleared on next boot.
 
@@ -64,7 +64,7 @@ set(QGC_BUNDLE_ID "org.qgroundcontrol.QGroundControl" CACHE STRING "MacOS Bundle
 set(QGC_MACOS_ICON_PATH "${CMAKE_SOURCE_DIR}/deploy/macos" CACHE PATH "MacOS Icon Path") # MACOS
 
 # Linux
-set(QGC_APPIMAGE_ICON_PATH "${CMAKE_SOURCE_DIR}/resources/icons/qgroundcontrol.png" CACHE FILEPATH "AppImage Icon Path")
+set(QGC_APPIMAGE_ICON_PATH "${CMAKE_SOURCE_DIR}/resources/icons/logo_sin_fondo_airhive.png" CACHE FILEPATH "AppImage Icon Path")
 
 # Windows
 set(QGC_WINDOWS_INSTALL_HEADER_PATH "${CMAKE_SOURCE_DIR}/deploy/windows/installheader.bmp" CACHE FILEPATH "Windows Install Header Path")

@@ -19,6 +19,7 @@ set(CMAKE_REQUIRED_QUIET ON)
 
 include(CustomOptions)
 
+
 if(IS_DIRECTORY ${CMAKE_SOURCE_DIR}/custom)
     message(STATUS "Enabling custom build")
     set(QGC_CUSTOM_BUILD ON)
